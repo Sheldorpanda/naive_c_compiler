@@ -1,9 +1,8 @@
 # naive_c_compiler
 
 ## Description
-Naive C to x86_64 ISA, Intel syntax assembly compiler. (Still in pipeline)
+Naive C to assembly compiler. (Still in pipeline)
 
 ## Implementation Details
-1. The compiler is constructed in C++
-2. The parsing procedure will make use of trie
-3. ...
+1. Implemented using lex and yacc
+2. The assembly is in x86_64, Intel syntax
